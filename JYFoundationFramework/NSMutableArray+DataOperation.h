@@ -1,0 +1,15 @@
+//
+//  NSMutableArray+DataOperation.h
+//  JYFoundationFramework
+//
+//  Created by James Chong
+//  Copyright (c) 2014 jamesjychong. All rights reserved.
+//
+
+@interface NSMutableArray (DataOperation)
+
+- (void)addObjectSafe:(id)anObject;
+
+- (void)addObjectsFromArraySafe:(NSArray *)array;
+
+@end

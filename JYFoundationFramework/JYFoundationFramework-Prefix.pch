@@ -1,0 +1,16 @@
+//
+//  PrefixHeader.pch
+//  JYFoundationFramework
+//
+//  Created by James Chong
+//  Copyright (c) 2014 jamesjychong. All rights reserved.
+//
+
+#import <Availability.h>
+
+#ifdef __OBJC__
+
+	#import <UIKit/UIKit.h>
+	#import <Foundation/Foundation.h>
+
+#endif
